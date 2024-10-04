@@ -27,9 +27,9 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
 
-        WebView webView = root.findViewById(R.id.webView); // Assuming you have a WebView with id 'webView' in your fragment layout
-        webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.google.com"); // Replace with your desired URL
+       // WebView webView = root.findViewById(R.id.webView); // Assuming you have a WebView with id 'webView' in your fragment layout
+       // webView.setWebViewClient(new WebViewClient());
+       // webView.loadUrl("https://www.google.com"); // Replace with your desired URL
 
 
         final TextView textView = binding.textHome;
